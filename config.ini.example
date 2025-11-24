@@ -1,0 +1,8 @@
+[reddit]
+client_id = YOUR_CLIENT_ID_HERE
+client_secret = YOUR_CLIENT_SECRET_HERE
+user_agent = Em-Dash-Scanner by /u/YOUR_USERNAME
+
+# Only needed for bot mode
+username = YOUR_BOT_USERNAME
+password = YOUR_BOT_PASSWORD
