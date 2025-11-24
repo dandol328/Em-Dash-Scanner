@@ -6,12 +6,13 @@ Responds to username mentions and analyzes the requested user.
 """
 
 import praw
+import argparse
 import configparser
 import sys
 import time
 import re
 from datetime import datetime
-from em_dash_scanner import scan_user, count_em_dashes, CHATGPT_RELEASE_DATE
+from em_dash_scanner import scan_user
 
 
 def load_config(config_path='config.ini'):
@@ -210,8 +211,6 @@ def run_bot(reddit):
 
 
 def main():
-    import argparse
-    
     parser = argparse.ArgumentParser(
         description='Run the Em-Dash Scanner as a Reddit bot that responds to mentions.'
     )

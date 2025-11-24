@@ -9,7 +9,6 @@ import argparse
 import configparser
 import sys
 from datetime import datetime
-from collections import defaultdict
 
 
 # ChatGPT was released on November 30, 2022
